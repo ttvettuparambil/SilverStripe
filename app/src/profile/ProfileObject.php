@@ -5,6 +5,8 @@ use SilverStripe\AssetAdmin\Forms\UploadField;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TextField;
 use SilverStripe\Forms\TextareaField;
+// Creating checkbox 
+use SilverSTripe\Forms\CheckboxsetField;
 
 Class ProfileObject extends DataObject {
     
@@ -21,6 +23,11 @@ Class ProfileObject extends DataObject {
     'ProfileSource' => File::class,
     'Profile' =>Profile::class
     ];
+
+    // Reflecting in ProfileObject
+    // private static $many_many =[
+    //     'ProfileCategory' =>ProfileCategory::class
+    // ];
 
     private static $owns = [
         'ProfileSource'
