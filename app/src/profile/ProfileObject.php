@@ -6,7 +6,7 @@ use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TextField;
 use SilverStripe\Forms\TextareaField;
 // Creating checkbox 
-use SilverSTripe\Forms\CheckboxsetField;
+use SilverStripe\Forms\CheckboxsetField;
 
 Class ProfileObject extends DataObject {
     
@@ -25,9 +25,9 @@ Class ProfileObject extends DataObject {
     ];
 
     // Reflecting in ProfileObject
-    // private static $many_many =[
-    //     'ProfileCategory' =>ProfileCategory::class
-    // ];
+    private static $many_many =[
+        'ProfileCategories' => ProfileCategory::class
+    ];
 
     private static $owns = [
         'ProfileSource'
@@ -37,7 +37,8 @@ Class ProfileObject extends DataObject {
         return new FieldList(
             UploadField::create('ProfileSource','Upload image')->setAllowedExtensions(['jpg','jpeg','png']),
             TextField::create('Titles','Enter title'),
-            TextareaField::create('Description','Enter Designation')->setRows(4)
+            TextareaField::create('Description','Enter Designation')->setRows(4),
+            CheckboxsetField::create('ProfileCategories','Categories',ProfileCategory::get()->map('ID','ProfileCategoryTitle'))
         );
     }
 
