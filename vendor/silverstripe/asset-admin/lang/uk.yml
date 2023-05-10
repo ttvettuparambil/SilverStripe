@@ -1,0 +1,21 @@
+uk:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Файли
+    BACKLINKCOUNT: 'Використовується в:'
+    PAGES: сторінка(и)
+    SIZE: Розмір
+    TYPE: Тип
+    CREATED: 'First uploaded'
+    DELETE_BUTTON: Delete
+    Filetype: 'File type'
+    ImageSpecs: Dimensions
+    LASTEDIT: 'Last changed'
+  SilverStripe\AssetAdmin\Forms\UploadField:
+    EDITINFO: 'Редагувати цей файл'
+  AssetFormFactory:
+    php.SilverStripe\AssetAdmin\Forms\AssetFormFactorySAVE: Save
+  SilverStripe\AssetAdmin\Forms\AssetFormFactory:
+    FILENAME: Filename
+    SAVE: Save
+  SilverStripe\AssetAdmin\Forms\RemoteFileFormFactory:
+    Cancel: Cancel

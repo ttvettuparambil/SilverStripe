@@ -1,0 +1,75 @@
+bs:
+  SilverStripe\CMS\Controllers\CMSMain:
+    Create: Kreiraj
+    PAGENOTEXISTS: 'Ova stranica ne postoji'
+    PUBALLCONFIRM: 'Molimo, objavite svaku stavku na ovoj stranici, kopiranjem sadržaja na aktivnu stranicu'
+    PUBALLFUN: 'Funkcija "Objavi sve"'
+    REMOVEDPAGEFROMDRAFT: 'Uklonjeno ''{title}'' sa privremenog nacrta stranice'
+    ARCHIVE: Arhiva
+    EMAIL: E-mail
+    PAGETYPEANYOPT: 'Bilo koji'
+    PAGETYPEOPT: 'Tip stranice'
+    PLEASESAVE: 'Molimo snimite stranicu: Ova stranica ne može biti ažurirana ako nije prethodno snimljena.'
+    ROLLBACK: 'Vrati na ovo izdanje'
+    SAVEDRAFT: Snimi
+    TabContent: Sadržaj
+  SilverStripe\CMS\Model\RedirectorPage:
+    HEADER: 'Ova stranica će preusmjeriti korisnike na drugu stranicu'
+    OTHERURL: 'URL druge web stranice'
+    REDIRECTTO: 'Preusmjeri na'
+    REDIRECTTOEXTERNAL: 'Drugu web stranicu'
+    REDIRECTTOPAGE: 'Na stavku na Vašoj web stranici'
+    YOURPAGE: 'Stavku na Vašoj web stranici'
+    FILE: Datoteka
+  SilverStripe\CMS\Model\SiteTree:
+    ACCESSANYONE: 'Svi korisnici'
+    ACCESSHEADER: 'Ko može pregledati ovu stavku na mojoj stranici?'
+    ACCESSLOGGEDIN: 'Prijavljeni korisnici'
+    ACCESSONLYTHESE: 'Samo ovi korisnici (izaberite sa popisa)'
+    BUTTONCANCELDRAFT: 'Poništi promjene privremenog nacrta stranice'
+    BUTTONCANCELDRAFTDESC: 'Izbrišite Vaš privremeni nacrt stranice i vratite se na trenutno objavljenu stranicu'
+    BUTTONUNPUBLISH: 'Opozovi objavljivanje'
+    BUTTONUNPUBLISHDESC: 'Ukloni ovu stavku sa objavljene stranice'
+    DEFAULTABOUTTITLE: 'O nama'
+    DEFAULTCONTACTTITLE: 'Kontaktirajte nas'
+    DEFAULTHOMETITLE: Početna
+    EDITHEADER: 'Ko može izmijeniti ovu stavku unutar CMS-a?'
+    HASBROKENLINKS: 'Ova stranica ima neispravnih linkova.'
+    HTMLEDITORTITLE: Sadržaj
+    MENUTITLE: 'Oznaka navigacije'
+    METADESC: Opis
+    METAEXTRA: 'Prilagođene Meta oznake'
+    PAGETITLE: 'Ime stranice'
+    PAGETYPE: 'Tip stranice'
+    SHOWINMENUS: 'Prikaži u izbornicima?'
+    SHOWINSEARCH: 'Prikaži u pretrazi?'
+    TABBEHAVIOUR: Ponašanje
+    TOPLEVEL: 'Sadržaj stranice (Glavni nivo)'
+    Content: Sadržaj
+    SINGULARNAME: Stranica
+  SilverStripe\CMS\Model\VirtualPage:
+    HEADER: 'Ovo je virtualna stranica'
+  SilverStripe\CMS\Reports\BrokenLinksReport:
+    Any: 'Bilo koji'
+    PageName: 'Ime stranice'
+  SilverStripe\CMS\Search\SearchForm:
+    GO: Idi
+    SEARCH: Pretraga
+    FILTERLABELTEXT: Pretraga
+  SilverStripe\CMS\BatchActions\CMSBatchAction_Unpublish:
+    UNPUBLISH_PAGES: 'Opozovi objavljivanje'
+  SilverStripe\CMS\Controllers\CMSPagesController:
+    FILTER: Filter
+  SilverStripe\CMS\Controllers\ContentController:
+    Email: E-mail
+    Password: Šifra
+  SilverStripe\CMS\Forms\AnchorLinkFormFactory:
+    ANCHORVALUE: Sidro
+  SilverStripe\CMS\Forms\InternalLinkFormFactory:
+    LINKDESCR: 'Opis linka'
+  SilverStripe\CMS\Forms\SiteTreeURLSegmentField:
+    Edit: Edit
+  SilverStripe\CMS\Model\RedirectorPageController:
+    HASBEENSETUP: 'Stranica za preusmjeravanje je podešena bez odredišta.'
+  SilverStripe\CMS\Reports\RecentlyEditedReport:
+    LAST2WEEKS: 'Izmjenjene stranice u posljednje 2 sedmice'

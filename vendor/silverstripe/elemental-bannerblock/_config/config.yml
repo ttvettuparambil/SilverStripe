@@ -1,0 +1,17 @@
+---
+Name: elementalbannerblockconfig
+---
+SilverStripe\Core\Injector\Injector:
+  Link:
+    class: SilverStripe\ElementalBannerBlock\ORM\FieldType\DBLink
+
+DNADesign\Elemental\Controllers\ElementController:
+  default_styles:
+    - silverstripe/elemental-bannerblock:client/dist/styles/frontend-default.css
+
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_javascript:
+    - 'silverstripe/elemental-bannerblock:client/dist/js/bundle.js'
+  extra_requirements_css:
+    - 'silverstripe/elemental-bannerblock:client/dist/styles/bundle.css'
+

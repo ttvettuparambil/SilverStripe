@@ -1,0 +1,31 @@
+{
+    "name": "silverstripe/elemental-fileblock",
+    "description": "A file block for the silverstripe-elemental module",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "elemental",
+        "content blocks"
+    ],
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "silverstripe/framework": "^4.10",
+        "silverstripe/vendor-plugin": "^1.0",
+        "dnadesign/silverstripe-elemental": "^4.8",
+        "silverstripe/cms": "^4.3",
+        "silverstripe/assets": "^1.3"
+    },
+    "require-dev": {
+        "silverstripe/recipe-testing": "^2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SilverStripe\\ElementalFileBlock\\": "src/",
+            "SilverStripe\\ElementalFileBlock\\Tests\\": "tests/",
+            "SilverStripe\\ElementalFileBlock\\Tests\\Behat\\Context\\": "tests/behat/src/"
+        }
+    }
+}

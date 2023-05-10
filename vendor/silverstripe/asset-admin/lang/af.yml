@@ -1,0 +1,25 @@
+af:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Lêers
+    BACKLINKCOUNT: 'Gebruik op:'
+    PAGES: bladsy(e)
+    SIZE: 'Lêer grootte'
+    TYPE: 'Lêer tipe'
+    CREATED: 'First uploaded'
+    DELETE_BUTTON: Delete
+    Filetype: 'File type'
+    ImageSpecs: Dimensions
+    LASTEDIT: 'Last changed'
+  SilverStripe\AssetAdmin\Forms\UploadField:
+    Dimensions: Afmetings
+    EDIT: Verander
+    EDITINFO: 'Verander die lêer'
+    FIELDNOTSET: 'Die lêer informasie kan nie gevind word nie'
+    REMOVE: Verwyder
+  AssetFormFactory:
+    php.SilverStripe\AssetAdmin\Forms\AssetFormFactorySAVE: Save
+  SilverStripe\AssetAdmin\Forms\AssetFormFactory:
+    FILENAME: Filename
+    SAVE: Save
+  SilverStripe\AssetAdmin\Forms\RemoteFileFormFactory:
+    Cancel: Cancel

@@ -1,0 +1,30 @@
+es:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Archivos
+    BACKLINKCOUNT: 'Usado en:'
+    PAGES: página(s)
+    HEIGHT: Alto
+    SIZE: Tamaño
+    TYPE: 'Tipo de archivo'
+    URL: URL
+    WIDTH: Ancho
+    CREATED: 'First uploaded'
+    DELETE_BUTTON: Delete
+    Filetype: 'File type'
+    ImageSpecs: Dimensions
+    LASTEDIT: 'Last changed'
+  SilverStripe\AssetAdmin\Forms\UploadField:
+    Dimensions: Dimensiones
+    EDIT: Editar
+    EDITINFO: 'Editar este archivo'
+    FIELDNOTSET: 'No ha sido encontrada la información del archivo'
+    REMOVE: Eliminar
+  AssetFormFactory:
+    php.SilverStripe\AssetAdmin\Forms\AssetFormFactorySAVE: Save
+  SilverStripe\AssetAdmin\Forms\AssetFormFactory:
+    FILENAME: Filename
+    SAVE: Save
+  SilverStripe\AssetAdmin\Forms\FolderFormFactory:
+    FOLDERNAME: 'Nombre de la carpeta'
+  SilverStripe\AssetAdmin\Forms\RemoteFileFormFactory:
+    Cancel: Cancel

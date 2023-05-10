@@ -1,0 +1,156 @@
+tr:
+  SilverStripe\CMS\Controllers\CMSMain:
+    ChoosePageParentMode: 'Sayfanın nereye oluşturulacağını seç'
+    ChoosePageType: 'Sayfa tipini seç'
+    Create: Oluştur
+    PAGENOTEXISTS: 'Sayfa bulunamadı'
+    PUBALLCONFIRM: 'Lütfen taslak sitedeki tüm sayfaları yayınlanmakta olan siteye kopyalayıp yayınla.'
+    PUBALLFUN: '"Hepsini Yayınla" özelliği'
+    PageAdded: 'Sayfa başarıyla oluşturuldu'
+    REMOVEDPAGEFROMDRAFT: '''{title}'' taslak siteden silindi'
+    ARCHIVE: Arşiv
+    AddNew: 'Yeni sayfa ekle'
+    AddNewButton: 'Yeni ekle'
+    EMAIL: Eposta
+    PAGESALLOPT: 'Tüm sayfalar'
+    PAGETYPEANYOPT: Herhangi
+    PAGETYPEOPT: 'Sayfa tipi'
+    PLEASESAVE: 'Lütfen Sayfayı Kaydedin: Bu sayfa henüz kaydedilmediği için güncellenemedi.'
+    ROLLBACK: 'Bu sürüme geri dön'
+    SAVEDRAFT: Kaydet
+    SEARCHRESULTS: 'Arama sonuçları'
+    TabContent: İçerik
+    TabHistory: Geçmiş
+    TabSettings: Ayarlar
+  SilverStripe\CMS\Controllers\CMSPagesController:
+    MENUTITLE: Sayfalar
+    FILTER: Filtre
+  SilverStripe\CMS\Controllers\CMSSiteTreeFilter_Search:
+    Title: 'Tüm sayfalar'
+  SilverStripe\CMS\Controllers\ContentController:
+    INSTALL_SUCCESS: 'Kurulum Başarılı!'
+    LOGOUT: 'Çıkış Yap'
+    NOTEWONTBESHOWN: 'Not: Bu mesaj ziyaretçilerinize gösterilmeyecektir.'
+    DRAFT: Taslak
+    Email: Eposta
+    InstallFilesDeleted: 'Kurulum dosyaları başarıyla silindi.'
+    InstallSuccessCongratulations: 'SilverStripe başarıyla kuruldu!'
+    LOGIN: Giriş
+    Password: Parola
+    UNVERSIONEDPREVIEW: Önizleme
+  SilverStripe\CMS\Model\RedirectorPage:
+    HEADER: 'Bu sayfa, kullanıcıları başka bir sayfaya yönlendirir'
+    OTHERURL: 'Başka bir siteye ait URL'
+    REDIRECTTO: 'Şuraya yönlendir'
+    REDIRECTTOEXTERNAL: 'Başka bir site'
+    REDIRECTTOPAGE: 'Web sitenizdeki bir sayfa'
+    YOURPAGE: 'Web sitenizdeki bir sayfa'
+    FILE: Dosya
+  SilverStripe\CMS\Model\SiteTree:
+    ACCESSANYONE: Herkes
+    ACCESSHEADER: 'Bu sayfayı kimler görüntüleyebilir?'
+    ACCESSLOGGEDIN: 'Giriş yapmış kullanıcılar'
+    ACCESSONLYTHESE: 'Sadece bu kişiler (listeden seçiniz)'
+    ADDEDTODRAFTSHORT: Taslak
+    BUTTONCANCELDRAFT: 'Taslak değikliklerini iptal et'
+    BUTTONCANCELDRAFTDESC: 'Taslağı sil ve şu an yayında olan sayfaya geri döndür'
+    BUTTONUNPUBLISH: 'Yayından kaldır'
+    BUTTONUNPUBLISHDESC: 'Bu sayfayı yayından kaldır'
+    Comments: Yorumlar
+    Content: İçerik
+    DEFAULTABOUTTITLE: Hakkımızda
+    DEFAULTCONTACTTITLE: İletişim
+    DEFAULTHOMETITLE: Anasayfa
+    DependtPageColumnLinkType: 'Link tipi'
+    EDITHEADER: 'Bu sayfayı kimler düzenleyebilir?'
+    Editors: 'Editör Grupları'
+    HASBROKENLINKS: 'Bu sayfada hatalı linkler var.'
+    HTMLEDITORTITLE: İçerik
+    INHERIT: 'Üst sayfadan kalan'
+    LASTUPDATED: 'Son Güncellenen'
+    MENUTITLE: 'Navigasyon etiketi'
+    METADESC: Tanım
+    METAEXTRA: 'Kişisel Meta Etiketleri'
+    MODIFIEDONDRAFTSHORT: Değiştirilmiş
+    PAGETITLE: 'Sayfa ismi'
+    PAGETYPE: 'Sayfa tipi'
+    PARENTID: 'Ana sayfa'
+    PARENTTYPE: 'Sayfa konumu'
+    PARENTTYPE_ROOT: 'Üst seviye sayfa'
+    PERMISSION_GRANTACCESS_DESCRIPTION: 'Grupların işlem ve düzenlemelerinin kontrolü'
+    REORGANISE_DESCRIPTION: 'Site yapısını değiştir'
+    REORGANISE_HELP: 'Site ağacının sürükle&bırak şeklinde tekrardan düzenle'
+    SHOWINMENUS: 'Menülerde gösterilsin mi?'
+    SHOWINSEARCH: 'Aramalarda gösterilsin mi?'
+    TABBEHAVIOUR: Davranış
+    TOPLEVEL: 'Site İçeriği (Üst Seviye)'
+    Viewers: 'Görüntüleyici Grupları'
+    Visibility: Görünürlük
+    has_one_Parent: 'Üst Sayfa'
+    many_many_BackLinkTracking: 'Geri bağlantı izi'
+    many_many_ImageTracking: 'İmaj izi'
+    many_many_LinkTracking: 'Bağlantı izi'
+    BUTTONSAVED: Kaydedilmiş
+    BUTTONSAVEPUBLISH: Yayınla
+    NOTPUBLISHED: Yayınlanmamış
+    ONLIVEONLYSHORTHELP: 'Sayfa yayınlandı ve taslaklardan silindi'
+    PAGELOCATION: 'Sayfa konumu'
+    PLURALNAME: Sayfalar
+    SINGULARNAME: Sayfa
+  SilverStripe\CMS\Model\VirtualPage:
+    HEADER: 'Bu sanal bir sayfadır'
+    SINGULARNAME: 'Sanal Sayfa'
+  SilverStripe\CMS\Reports\BrokenLinksReport:
+    CheckSite: 'Siteyi kontrol et'
+    HasBrokenLink: 'kırık link var'
+    HoverTitleEditPage: 'Sayfayı düzenle'
+    PageName: 'Sayfa ismi'
+    ReasonDropdownBROKENLINK: 'Kırık link'
+    Any: Herhangi
+  SilverStripe\CMS\Search\SearchForm:
+    GO: Git
+    SEARCH: Ara
+    FILTERLABELTEXT: Ara
+  SilverStripe\CMS\BatchActions\CMSBatchAction_Publish:
+    PUBLISH_PAGES: Yayınla
+  SilverStripe\CMS\BatchActions\CMSBatchAction_Restore:
+    RESTORE: 'Geri yükle'
+  SilverStripe\CMS\BatchActions\CMSBatchAction_Unpublish:
+    UNPUBLISH_PAGES: 'Yayından kaldır'
+  SilverStripe\CMS\Controllers\CMSPageAddController:
+    MENUTITLE: 'Sayfa ekle'
+    Title: 'Sayfa ekle'
+  SilverStripe\CMS\Controllers\CMSPageEditController:
+    MENUTITLE: 'Sayfayı düzenle'
+  SilverStripe\CMS\Controllers\CMSPageHistoryController:
+    AUTHOR: Yazar
+    MENUTITLE: Geçmiş
+    NOTPUBLISHED: Yayınlanmamış
+    PUBLISHER: Yayınlayan
+    UNKNOWN: Bilinmeyen
+    WHEN: 'Ne zaman'
+  SilverStripe\CMS\Controllers\CMSPageSettingsController:
+    MENUTITLE: 'Sayfayı düzenle'
+  SilverStripe\CMS\Forms\AnchorLinkFormFactory:
+    ANCHORVALUE: Çapa
+  SilverStripe\CMS\Forms\InternalLinkFormFactory:
+    LINKDESCR: 'Bağlantı açıklaması'
+  SilverStripe\CMS\Forms\SiteTreeURLSegmentField:
+    Edit: Edit
+  SilverStripe\CMS\Model\RedirectorPageController:
+    HASBEENSETUP: 'Yönlendirilecek yeri olmayan bir yönlendirme sayfası ayarlandı.'
+  SilverStripe\CMS\Reports\BrokenFilesReport:
+    BROKENFILES: 'Kırık link bulunan sayfalar'
+    BrokenLinksGroupTitle: 'Kırık linki rapor et'
+    ParameterLiveCheckbox: 'Yayındaki siteyi kontrol et'
+  SilverStripe\CMS\Reports\BrokenRedirectorPagesReport:
+    BrokenLinksGroupTitle: 'Kırık linki rapor et'
+    ParameterLiveCheckbox: 'Yayındaki siteyi kontrol et'
+  SilverStripe\CMS\Reports\BrokenVirtualPagesReport:
+    BrokenLinksGroupTitle: 'Kırık linki rapor et'
+    ParameterLiveCheckbox: 'Yayındaki siteyi kontrol et'
+  SilverStripe\CMS\Reports\EmptyPagesReport:
+    ContentGroupTitle: 'İçerik raporları'
+  SilverStripe\CMS\Reports\RecentlyEditedReport:
+    ContentGroupTitle: 'İçerik raporları'
+    LAST2WEEKS: 'Son 2 haftada düzenlenmiş sayfalar'

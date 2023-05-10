@@ -1,0 +1,8 @@
+it:
+  SilverStripe\ElementalBannerBlock\Block\BannerBlock:
+    BlockType: Banner
+  SilverStripe\ElementalBannerBlock\Form\BlockLinkField:
+    Description: 'Descrizione del collegamento'
+    LinkText: 'Link al testo'
+    SelectPage: 'Seleziona una pagina'
+    TargetBlank: 'Apri in una nuova finestra/scheda'
